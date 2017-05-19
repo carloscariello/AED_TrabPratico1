@@ -1,0 +1,6 @@
+Esse dados abordam as notas de alunos de matemática de 3 turmas de 40 alunos de 6 série de uma escola.
+
+B1 são as notas alcançadas no primeiro bimestre com valor máximo de 20
+B2 são as notas alcançadas no segundo bimestre com valor máximo de 30
+NotaFinal é a somatoria das notas de B1 e B2
+MediaFinal é a média entre as notas de B1 e B2
