@@ -20,6 +20,7 @@ x_bar <- 0
 R <- 0
 limit <- length(nf)/3
 
+#Calculando X_BAR
 for(z in 1:limit){
   aux <- c(nf[i], nf[i+1], nf[i+2])
   x_bar[j] <- mean(aux)
@@ -28,7 +29,10 @@ for(z in 1:limit){
   i <- i+3
 }
 
+#Arredondando X_BAR
 x_bar <- round(x_bar)
+
+#Calculando os limites
 LSC <- mean(x_bar)+1.023*mean(R)
 LIC <- mean(x_bar)-1.023*mean(R)
 LC <- mean(x_bar)
