@@ -38,8 +38,8 @@ LIC <- mean(x_bar)-1.023*mean(R)
 LC <- mean(x_bar)
 
 #Arredondando valores
-LSC <- ceil(LSC)
-LIC <- floor(LIC)
+LSC <- floor(LSC)
+LIC <- ceiling(LIC)
 LC <- round(LC)
 
 #Criando Matriz de LSC
